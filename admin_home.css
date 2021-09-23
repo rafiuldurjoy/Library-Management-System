@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: montserrat;
+}
+nav{
+    background: rgb(139, 173, 236);
+    height: 100px;
+    width: 100%;
+}
+label.logo{
+    color: white;
+    font-size: 50px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 80px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+nav li a:hover {
+    color:black;
+}
+
+.card{
+    background: powderblue;
+    border-radius: 6px;
+    display: inline-block;
+    height: 370px;
+    width: 350px;
+    margin-top: 60px;
+    margin-left: 38%;
+    box-shadow: 0 12px 13px rgb(139, 166, 218) ,0 12px 13px rgb(139, 166, 218);
+    text-align: center;
+}
+
+.card .name{
+    text-align: center;
+    color: black;
+    margin-top: 10%;
+}
+
+.desc {
+    font-size: 12px;
+    margin-left: 65px;
+    margin-right: 65px;
+    margin-top: 10%;
+    color: black;
+
+}
+.btn{
+    margin-top: 15%;
+    background-color: cornflowerblue;
+}
+.input-group{
+    margin: 5%;
+    
+}

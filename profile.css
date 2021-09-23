@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: montserrat;
+}
+nav{
+    background: rgb(139, 173, 236);
+    height: 100px;
+    width: 100%;
+}
+label.logo{
+    color: white;
+    font-size: 50px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 80px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+nav li a:hover {
+    color:black;
+}
+.card{
+    background: powderblue;
+    border-radius: 6px;
+    display: inline-block;
+    height: 500px;
+    width: 375p;
+    margin-top: 60px;
+    margin-left: 34%;
+    margin-bottom: 10%;
+    box-shadow: 0 12px 13px rgb(139, 166, 218) ,0 12px 13px rgb(139, 166, 218);
+}
+
+.img{
+    border-radius: 100%;
+    margin-top: 60px;
+    width: 132px;
+    height: 128px;
+    margin-left: 36%;
+
+}
+.name{
+    color: black;
+    text-align: center;
+}
+
+.desc {
+    font-size: 14px;
+    margin-left: 65px;
+    margin-right: 65px;
+    margin-top: 15%;
+    color: white;
+    text-align: center;
+
+}
+.desc .p{
+    border-style: dashed;
+}
+
+.container{
+    display: flex;
+    height: 250px;
+    margin-top: 10%;
+}
+.card1{
+    background: powderblue;
+    border-radius: 6px;
+    display: inline-block;
+    height: 200px;
+    width: 45%;
+    margin-top: 60px;
+    margin-bottom: 5%;
+    margin-right: 2.2%;
+    margin-left: 2.2%;
+    position: relative;
+    box-shadow: 0 12px 13px rgb(139, 166, 218),0 12px 13px rgb(139, 166, 218);
+    
+    
+}
+table{
+    width: 100%;
+}
+
+
+ th, td {
+    border: none; 
+    text-align:left;
+    color: black;
+}
+.btn{
+        background-color: rgb(122, 122, 201);
+        width: 20%;
+        margin-left: 40%;
+    
+}
+.test{
+    color:rgb(35, 94, 102);
+    text-align: center;
+    border: 2px solid rgb(59, 178, 194);
+    padding: 10px;
+    width: 400px;
+    height: 100px;
+    margin-top: 2%;
+}
+.clr:link, .clr:visited {
+    background-color: rgb(59, 178, 194);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 38%;
+    margin-top: 3%;
+  }
+  
+  .clr:hover, .clr:active {
+    background-color:rgb(35, 94, 102);
+  }
